@@ -7,19 +7,33 @@ export const Navbar = () => {
         <nav className="navigation">
             <ul className="navigation-bar">
                 <li className="navigation-bar-item">
-                    <a href="./index.html">Inicio</a>
+                    <a href="/">Inicio</a>
                 </li>
                 <li className="navigation-bar-item">
-                    <a href="./sections/servicios.html">Marcas Zapatos</a>
+                    <a href="/">Libros</a>
+                    <ul className="item-book">
+                        <li className="item"><a href="/">Novelas</a></li>
+                        <li className="item"><a href="/">Poéticos</a></li>
+                        <li className="item"><a href="/">Aventura</a></li>
+                        <li className="item"><a href="/">Misterio</a></li>
+                        <li className="item"><a href="/">Científicos</a></li>
+                        <li className="item"><a href="/">Académicos</a></li>
+                    </ul>
                 </li>
                 <li className="navigation-bar-item">
-                    <a href="./sections/experiencia.html">Marcas Ropa</a>
+                    <a href="/">Revistas</a>
+                    <ul className="item-magazine">
+                        <li className="item"><a href="/">Entretenimiento</a></li>
+                        <li className="item"><a href="/">Académicas</a></li>
+                        <li className="item"><a href="/">Farándula</a></li>
+                        <li className="item"><a href="/">Negocios</a></li>
+                    </ul>
                 </li>
                 <li className="navigation-bar-item">
-                    <a href="./sections/portafolio.html">Lo Más vendido</a>
+                    <a href="/">Lo Más Vendido</a>
                 </li>
                 <li className="navigation-bar-item">
-                    <a href="./sections/contacto.html">Contacto</a>
+                    <a href="/">Contacto</a>
                 </li>
             </ul>
         </nav>
