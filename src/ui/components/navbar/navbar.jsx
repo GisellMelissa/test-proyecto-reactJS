@@ -1,9 +1,13 @@
-import { CartWidget } from "./cart-widget"
+import { CartWidget } from "./cart-widget";
+import Logo from "../../assets/Logo-Oasis-Literario2.png";
 
 export const Navbar = () => {
     return (
         <>
     <header>
+        <div className="logo-container">
+            <img src={Logo} alt="" />
+        </div>
         <nav className="navigation">
             <ul className="navigation-bar">
                 <li className="navigation-bar-item">
@@ -15,7 +19,7 @@ export const Navbar = () => {
                         <li className="item"><a href="/">Novelas</a></li>
                         <li className="item"><a href="/">Poéticos</a></li>
                         <li className="item"><a href="/">Aventura</a></li>
-                        <li className="item"><a href="/">Misterio</a></li>
+                        <li className="item"><a href="/">Superación Personal</a></li>
                         <li className="item"><a href="/">Científicos</a></li>
                         <li className="item"><a href="/">Académicos</a></li>
                     </ul>
@@ -36,9 +40,10 @@ export const Navbar = () => {
                     <a href="/">Contacto</a>
                 </li>
             </ul>
+            <CartWidget />
         </nav>
     </header>
-            <CartWidget />
+           
         </>
     )
 }

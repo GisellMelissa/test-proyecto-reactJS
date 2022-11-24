@@ -1,7 +1,7 @@
 export const ProductList = ({greeting}) => {
     return (
         <>
-           Contenedor de Productos {greeting}
+           Mensaje de Prueba: {greeting}
         </>
     )
 }
